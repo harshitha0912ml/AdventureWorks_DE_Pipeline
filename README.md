@@ -18,6 +18,13 @@ The project aims to build an end-to-end data pipeline that ingests, transforms, 
 
 ## Services Used
 
+1. **Azure Data Lake Storage Gen2**  - Azure Data Lake Storage Gen2 is an object storage service that provides manufacturing scalability, data availability, security, and performance. Hierarchical namespace has been enabled for data organization and file-level operations.
+2. **Azure IAM** - This is an identity and access management tool which enables us to manage access to Azure services and resources securely.
+3. **Azure Data Factory** - A cloud-based data integration service that allows you to create, schedule, and orchestrate ETL workflows to move and transform data at scale.
+4. **Azure Databricks** - An Apache Spark–based analytics platform optimized for Azure, used for big data processing, machine learning, and real-time analytics.
+5. **Azure Synapse Analytics** - A unified analytics service that combines big data and data warehousing capabilities to query and analyze data at scale using T-SQL or Spark.
+6. **Microsoft Power BI** - A business intelligence tool that enables you to visualize, explore, and share data through interactive and real-time dashboards and reports.
+   
 
 
 ## Dataset Used
