@@ -56,7 +56,21 @@ Azure Synapse Analytics connects to the Silver layer using Linked Services and E
 
   ## Key Data Visualizations (Databricks) -
 
-![Average Income By Occupation](https://github.com/user-attachments/assets/84e733eb-4d56-4b9e-8b78-6560460b7d34)
+![Average Income By Occupation](https://github.com/user-attachments/assets/84e733eb-4d56-4b9e-8b78-6560460b7d34)  
+*Figure 1: Average Income by Occupation (Databricks Visualization)*
+
+![visualization (9)](https://github.com/user-attachments/assets/88a48c12-dfad-424c-af09-1940222b6bf6)
+*Figure 2: Total Orders per Month*
+
+![visualization (2)](https://github.com/user-attachments/assets/e90a860f-1823-4e64-a6c5-033e0434a276)
+*Figure 3: Order Composition by maritial status*
+
+![visualization (7)](https://github.com/user-attachments/assets/dc92c8a4-2085-4b16-a347-e434c5d00ae7)
+*Figure 4: Product Composition by Product Type*
+
+
+
+
 
 
 
