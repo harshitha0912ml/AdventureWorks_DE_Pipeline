@@ -29,6 +29,9 @@ The project aims to build an end-to-end data pipeline that ingests, transforms, 
 
 ## Dataset Used
 
+1. AdventureWorks is a Microsoft-provided sample SQL Server database that simulates the data of a fictional bicycle manufacturing company.
+2. It contains multiple interrelated tables covering business domains like Sales, products, product subcategories.
+3. **Data Source Link** : https://github.com/harshitha0912ml/AdventureWorks_DE_Pipeline/tree/main/Adventureworks_raw_Data
 
 
 ##  Architecture Diagram
