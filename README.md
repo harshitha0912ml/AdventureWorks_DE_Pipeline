@@ -45,19 +45,19 @@ The project aims to build an end-to-end data pipeline that ingests, transforms, 
 A Spark-based ETL pipeline is executed in Azure Databricks. The raw data is:
 - Cleaned and normalized
 - Converted to Parquet format for optimized storage
-4. Transformed data is then written to the Silver layer, and exploratory visualizations have been created for validation and profiling.
+4. Transformed data is then written to the Silver layer.
 5. **Data Aggregation in Azure Synapse Analytics** (Silver → Gold)
 Azure Synapse Analytics connects to the Silver layer using Linked Services and External Tables. Using T-SQL scripts, it performs:
 - Business-level aggregations (e.g., total revenue, top-selling products)
 - Output tables are saved in the Gold layer for consumption.
-6. The Gold layer stores business-ready data in Parquet or Delta format, optimized for reporting and analytics.
+6. The Gold layer stores business-ready data in Parquet format, optimized for reporting and analytics.
 7. Power BI connects to the Gold layer either: via Azure Synapse Serverless SQL endpoint.
   Dashboards visualize key metrics such as Sales Trends, Customer Segments, and Product Performance.
 
-  ## Key Data Visualizations (Databricks) -
+  ## Key Data Visualizations (Power BI) -
 
 ![Average Income By Occupation](https://github.com/user-attachments/assets/84e733eb-4d56-4b9e-8b78-6560460b7d34)  
-*Figure 1: Average Income by Occupation (Databricks Visualization)*
+*Figure 1: Average Income by Occupation*
 
 ![visualization (9)](https://github.com/user-attachments/assets/88a48c12-dfad-424c-af09-1940222b6bf6)
 *Figure 2: Total Orders per Month*
