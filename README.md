@@ -38,6 +38,27 @@ The project aims to build an end-to-end data pipeline that ingests, transforms, 
 
 ![adventureworksarch](https://github.com/user-attachments/assets/23e5d295-788f-4e15-a001-5df4a838ba5d)
 
+## Process Flow
+1. **Data Extraction from GitHub → Azure Data Factory** - The raw AdventureWorks CSV files are hosted on GitHub. A pipeline in Azure Data Factory (ADF) is configured to extract these files using a HTTP connector. Data is fetched as-is (raw CSV format) from GitHub and staged for ingestion.
+2. **Load to Bronze Layer (Raw Storage)** - The raw data from ADF is loaded into the Bronze layer of Azure Data Lake Storage Gen2 (ADLS Gen2). This layer acts as a raw data repository, preserving original records for audit and traceability.
+3. **Transformation Using Azure Databricks (Bronze → Silver)**
+A Spark-based ETL pipeline is executed in Azure Databricks. The raw data is:
+- Cleaned and normalized
+- Converted to Parquet format for optimized storage
+4. Transformed data is then written to the Silver layer, and exploratory visualizations have been created for validation and profiling.
+5. **Data Aggregation in Azure Synapse Analytics** (Silver → Gold)
+Azure Synapse Analytics connects to the Silver layer using Linked Services and External Tables. Using T-SQL scripts, it performs:
+- Business-level aggregations (e.g., total revenue, top-selling products)
+- Output tables are saved in the Gold layer for consumption.
+6. The Gold layer stores business-ready data in Parquet or Delta format, optimized for reporting and analytics.
+7. Power BI connects to the Gold layer either: via Azure Synapse Serverless SQL endpoint.
+  Dashboards visualize key metrics such as Sales Trends, Customer Segments, and Product Performance.
+
+  ## Key Data Visualizations (Databricks) -
+
+![Average Income By Occupation](https://github.com/user-attachments/assets/84e733eb-4d56-4b9e-8b78-6560460b7d34)
+
+
 
 
 
