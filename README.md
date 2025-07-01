@@ -36,6 +36,7 @@ The project aims to build an end-to-end data pipeline that ingests, transforms, 
 
 ##  Architecture Diagram
 
+![adventureworksarch](https://github.com/user-attachments/assets/23e5d295-788f-4e15-a001-5df4a838ba5d)
 
 
 
