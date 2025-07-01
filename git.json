@@ -1,0 +1,53 @@
+[
+    {
+        "p_relative_dataset": "harshitha0912ml/AdventureWorks_DE_Pipeline/refs/heads/main/Adventureworks_raw_Data/AdventureWorks_Product_Categories.csv",
+        "p_dynamic_directory": "AdventureWorks_Product_Categories",
+        "p_file_url": "AdventureWorks_Product_Categories.csv"
+    },
+    {
+        "p_relative_dataset": "harshitha0912ml/AdventureWorks_DE_Pipeline/refs/heads/main/Adventureworks_raw_Data/AdventureWorks_Calendar.csv",
+        "p_dynamic_directory": "AdventureWorks_Calendar",
+        "p_file_url": "AdventureWorks_Calendar.csv"
+    },
+    {
+        "p_relative_dataset": "harshitha0912ml/AdventureWorks_DE_Pipeline/refs/heads/main/Adventureworks_raw_Data/AdventureWorks_Customers.csv",
+        "p_dynamic_directory": "AdventureWorks_Customers",
+        "p_file_url": "AdventureWorks_Customers.csv"
+    },
+    {
+        "p_relative_dataset": "harshitha0912ml/AdventureWorks_DE_Pipeline/refs/heads/main/Adventureworks_raw_Data/AdventureWorks_Product_Subcategories.csv",
+        "p_dynamic_directory": "Product_Subcategories",
+        "p_file_url": "AdventureWorks_Product_Subcategories.csv"
+    },
+    {
+        "p_relative_dataset": "harshitha0912ml/AdventureWorks_DE_Pipeline/refs/heads/main/Adventureworks_raw_Data/AdventureWorks_Products.csv",
+        "p_dynamic_directory": "AdventureWorks_Products",
+        "p_file_url": "AdventureWorks_Products.csv"
+    },
+    {
+        "p_relative_dataset": "harshitha0912ml/AdventureWorks_DE_Pipeline/refs/heads/main/Adventureworks_raw_Data/AdventureWorks_Returns.csv",
+        "p_dynamic_directory": "AdventureWorks_Returns",
+        "p_file_url": "AdventureWorks_Returns.csv"
+    },
+    {
+        "p_relative_dataset": "harshitha0912ml/AdventureWorks_DE_Pipeline/refs/heads/main/Adventureworks_raw_Data/AdventureWorks_Sales_2015.csv",
+        "p_dynamic_directory": "AdventureWorks_Sales_2015",
+        "p_file_url": "AdventureWorks_Sales_2015.csv"
+    },
+    {
+        "p_relative_dataset": "harshitha0912ml/AdventureWorks_DE_Pipeline/refs/heads/main/Adventureworks_raw_Data/AdventureWorks_Sales_2016.csv",
+        "p_dynamic_directory": "AdventureWorks_Sales_2016",
+        "p_file_url": "AdventureWorks_Sales_2016.csv"
+    },
+    {
+        "p_relative_dataset": "harshitha0912ml/AdventureWorks_DE_Pipeline/refs/heads/main/Adventureworks_raw_Data/AdventureWorks_Sales_2017.csv",
+        "p_dynamic_directory": "AdventureWorks_Sales_2017",
+        "p_file_url": "AdventureWorks_Sales_2017.csv"
+    },
+    {
+        "p_relative_dataset": "harshitha0912ml/AdventureWorks_DE_Pipeline/refs/heads/main/Adventureworks_raw_Data/AdventureWorks_Territories.csv",
+        "p_dynamic_directory": "AdventureWorks_Territories",
+        "p_file_url": "AdventureWorks_Territories.csv"
+    }
+]
+
